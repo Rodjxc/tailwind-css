@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Once created this first 3 classes, we wrote on the console
+npx tailwindcss -i ./src/input.css -o ./build/css/styles.css
+to tell the input tailwind file to transcript it to the output css.
+After that we created a div with some code in the index html and pasted in the terminal
+npx tailwindcss -i ./src/input.css -o ./build/css/styles.css --watch  to keep track of all the changes
+*/
+
+.radial-blue {
+    background: radial-gradient(lightyellow, skyblue)
+}
